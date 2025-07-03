@@ -1,0 +1,28 @@
+{
+  "name": "miniprogram-backend",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node ./src/index.ts",
+    "watch": "nodemon ./src/index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "dotenv": "^17.0.1",
+    "koa": "^3.0.0",
+    "koa-body": "^6.0.1",
+    "koa-router": "^13.1.1",
+    "koa-static": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.15.0",
+    "@types/koa-router": "^7.4.8",
+    "@types/koa-static": "^4.0.4",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  },
+  "private": true
+}
